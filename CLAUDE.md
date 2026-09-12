@@ -77,3 +77,11 @@ Source spec: `~/Downloads/Voice Agent — Phase-by-Phase Build Prompt.md`
 
 8. **Track progress in `PLAN.md`.** After each phase is completed and the
    user confirms, update `PLAN.md`'s status table before moving on.
+
+9. **Push every action to public GitHub.** Repo:
+   https://github.com/vigneshwar-prog/voice-ai (public). After every
+   meaningful action (phase completion, file added/changed, plan/rules
+   update), commit with a clear message and `git push` to `origin main`.
+   Do not batch multiple phases into one unpushed commit. Never commit
+   secrets/API keys/.env files — rely on `.gitignore` and double-check
+   `git status`/`git diff` before every commit.
