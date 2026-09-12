@@ -62,6 +62,16 @@ the source prompt's phases 1–22 map to rows 0–21 above.)*
 Nothing has been built yet. Waiting to begin Phase 0 with hardware
 assessment and an in-depth explanation before any installation/code.
 
+## Learning notes
+
+`learning.html` — a standalone, sidebar-navigable HTML page logging every
+phase's notes and every Q&A doubt raised during the build. Open it directly
+in a browser (`open learning.html`). New entries are appended to the
+`ENTRIES` array in the file's script; each phase gets a "PHASE" entry when
+completed, and each ad-hoc question gets a "Q&A" entry. Sidebar supports
+search and filtering by type.
+
 ## Change log
 
 - Project created. `CLAUDE.md` and `PLAN.md` established. Ready to start Phase 0.
+- Added `learning.html` (sidebar-navigable notes log) with first Q&A entry: STT/TTS explainer + popular models comparison.
